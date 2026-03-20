@@ -1,0 +1,39 @@
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Editors / IDE ----
+.vscode/
+.idea/
+*.iml
+
+# ---- Logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Env / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Android / Gradle ----
+**/.gradle/
+**/build/
+**/local.properties
+
+# ---- Flutter / Dart ----
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec_overrides.yaml
+**/coverage/
+
+# ---- Optional generated outputs ----
+**/out/
+**/dist/
+**/tmp/
+**/temp/
