@@ -19,11 +19,11 @@ This repository is organized as a portfolio-style monorepo containing 5 independ
 
 ```text
 projects/
-  sheguard/
-  safeguardher/
-  ladybuddy/
-  wsafe/
-  shesecure/
+   01-sheguard/
+   02-safeguardher/
+   03-ladybuddy/
+   04-wsafe/
+   05-shesecure/
 ```
 
 ## Independence Rules
@@ -40,18 +40,18 @@ projects/
 ### 1) sheguard (Android / Gradle)
 
 ```powershell
-cd projects/sheguard
+cd projects/01-sheguard
 .\gradlew.bat tasks
 ```
 
 Typical Android Studio workflow:
-- Open `projects/sheguard` as an Android project.
+- Open `projects/01-sheguard` as an Android project.
 - Build/run from Android Studio, or use Gradle wrapper commands.
 
 ### 2) safeguardher (Flutter)
 
 ```powershell
-cd projects/safeguardher
+cd projects/02-safeguardher
 flutter pub get
 flutter run
 ```
@@ -59,21 +59,21 @@ flutter run
 ### 3) ladybuddy (Android / Gradle)
 
 ```powershell
-cd projects/ladybuddy
+cd projects/03-ladybuddy
 .\gradlew.bat tasks
 ```
 
 ### 4) wsafe (Android / Gradle)
 
 ```powershell
-cd projects/wsafe
+cd projects/04-wsafe
 .\gradlew.bat tasks
 ```
 
 ### 5) shesecure (Android / Gradle)
 
 ```powershell
-cd projects/shesecure
+cd projects/05-shesecure
 .\gradlew.bat tasks
 ```
 
